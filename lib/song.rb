@@ -25,11 +25,11 @@ class Song
   end
 
   def self.reset_all
-    self.all.clear
+    super 
   end
 
   def self.count
-    self.all.count
+    super
   end
 
   def artist=(artist)
